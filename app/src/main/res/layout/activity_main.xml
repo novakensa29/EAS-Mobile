@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView"
             android:layout_width="30dp"
             android:layout_height="30dp"
@@ -28,7 +28,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.516"
-            app:srcCompat="@drawable/charm_menu_hamburger" />
+            app:srcCompat="@drawable/charm_menu_hamburger"
+            android:onClick="menu"/>
 
         <ImageView
             android:id="@+id/imageView2"
@@ -42,7 +43,7 @@
             app:layout_constraintVertical_bias="0.64"
             app:srcCompat="@drawable/ns" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +53,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.727"
-            app:srcCompat="@drawable/charm_search" />
+            app:srcCompat="@drawable/charm_search"
+            android:onClick="search"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -68,7 +70,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.089">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,9 +80,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.531"
-            app:srcCompat="@drawable/sport" />
+            app:srcCompat="@drawable/sport"
+            android:onClick="Sport"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,9 +91,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/popular" />
+            app:srcCompat="@drawable/popular"
+            android:onClick="Popular"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,7 +104,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.47"
-            app:srcCompat="@drawable/health" />
+            app:srcCompat="@drawable/health"
+            android:onClick="health"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView

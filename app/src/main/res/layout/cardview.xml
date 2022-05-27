@@ -20,7 +20,7 @@
 
             <ImageView
                 android:layout_margin="10dp"
-                android:id="@+id/gambar"
+                android:id="@+id/imageView"
                 android:layout_width="98dp"
                 android:layout_height="98dp"
                 android:background="@color/biru_2"
@@ -33,7 +33,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
                 <TextView
-                    android:id="@+id/Judul"
+                    android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -42,7 +42,7 @@
                     android:textSize="15sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@+id/berita"
+                    android:id="@+id/desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -56,22 +56,22 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/waktu"
-                        android:layout_width="153dp"
+                        android:id="@+id/published_ad"
+                        android:layout_width="143dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="waktu"
-                        android:textColor="#000"
+                        android:textColor="@color/kuning_2"
                         android:textSize="11sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/publisher"
+                        android:id="@+id/author"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="Publisher"
-                        android:textColor="#000"
+                        android:textColor="@color/kuning_2"
                         android:textSize="11sp"
                         android:textStyle="bold"/>
 
