@@ -39,7 +39,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="591dp">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,27 +129,25 @@
             <TextView
                 android:id="@+id/text_detail_content"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="198dp"
                 android:layout_marginTop="8dp"
                 android:textColor="@color/black"
                 android:textSize="20sp">
 
             </TextView>
-            <LinearLayout
+            <Button
+                android:id="@+id/button_Url"
                 android:layout_width="match_parent"
-                android:layout_height="84dp"
-                android:background="@drawable/border"
-                android:orientation="vertical">
-                <TextView
-                    android:id="@+id/text_Url"
-                    android:layout_width="match_parent"
-                    android:layout_height="74dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@color/biru_1"
-                    android:textSize="20sp">
+                android:layout_height="41dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="28dp"
+                android:backgroundTint="@color/biru_1"
+                android:text="Read Full News"
+                android:textAllCaps="false">
 
-                </TextView>
-            </LinearLayout>
+            </Button>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
