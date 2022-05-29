@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/EAS/EAS-Mobile/app/src/main/res/drawable/border.xml" value="0.1" />
-        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/EAS/EAS-Mobile/app/src/main/res/drawable/border2.xml" value="0.1" />
-        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/EAS/EAS-Mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/EAS/EAS-Mobile/app/src/main/res/layout/cardview.xml" value="0.1" />
-        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/EAS/EAS-Mobile/app/src/main/res/layout/coba.xml" value="0.1" />
+        <entry key="..\:/Semester 4/PBB/NewsApp/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Semester 4/PBB/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Semester 4/PBB/NewsApp/app/src/main/res/layout/headline_list_items.xml" value="0.1" />
+        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/NewsApp/app/src/main/res/layout/activity_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/novak/OneDrive/Dokumen/Polban/Semester 4/Mobile Programming/NewsApp/app/src/main/res/layout/headline_list_items.xml" value="0.1" />
       </map>
     </option>
   </component>
