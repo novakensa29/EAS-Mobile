@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewsApp</string>
-    <string name="main_coniner">main_container</string>
-    <string name="api_key">928d7d812d9a4515ba2194e594104d1d</string>
+    <string name="app_name">NS News</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookmark">Bookmark</string>
 </resources>
